@@ -45,3 +45,6 @@
 .color__chats-nav{
     background-color: var(--blue);
 }
+.color__find-nav{
+    background-color: var(--yellow);
+}

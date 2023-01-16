@@ -18,3 +18,6 @@
 .color__chats{
     color: var(--blue);
 }
+.color__find{
+    color: var(--yellow);
+}
