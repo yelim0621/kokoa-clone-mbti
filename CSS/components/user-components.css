@@ -16,11 +16,11 @@
 }
 .user-component__title{
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
 }
 .user-component__subtitle{
   margin-top: 8px;
-  font-size: 15px;
+  font-size: 13px;
   color: rgba(0, 0, 0, 0.5);
 }
 .user-component__avatar--xl{

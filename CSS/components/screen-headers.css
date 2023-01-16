@@ -11,3 +11,6 @@
 .screen-header__icons span{
     margin-left: 25px;
 }
+.color__friends{
+    color: var(--purple);
+}
