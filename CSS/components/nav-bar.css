@@ -51,3 +51,6 @@
 .color__more-nav{
     background-color: var(--green);
 }
+.color__setting-nav{
+    background-color: var(--gray);
+}
