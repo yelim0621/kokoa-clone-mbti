@@ -48,3 +48,6 @@
 .color__find-nav{
     background-color: var(--yellow);
 }
+.color__more-nav{
+    background-color: var(--green);
+}

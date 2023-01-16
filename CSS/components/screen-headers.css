@@ -21,3 +21,6 @@
 .color__find{
     color: var(--yellow);
 }
+.color__more{
+    color: var(--green);
+}
