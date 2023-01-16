@@ -1,3 +1,6 @@
+#friends_screen{
+    height: 200vh;
+}
 #friends-display-link{
     text-align: center;
     display: block;
@@ -23,4 +26,15 @@
     display: flex;
     justify-content: space-between;
     color: var(--purple);
+}
+#splash-screen{
+    background-color: var(--lightgray);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 132px;
 }
