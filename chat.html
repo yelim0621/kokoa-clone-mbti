@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat w/ Executive - MBTI Talk</title>
 </head>
-<body class="color__chats-nav">
-    <div class="status-bar">
+<body id="chat-screen">
+    <div class="status-bar color__chat">
         <div class="status-bar__column">
           <span>No Service</span>
           <i class="fas fa-wifi"></i>
@@ -25,7 +25,7 @@
 
     <header class="alt-header color__chat">
         <div class="alt-header__column">
-            <a href="more.html">
+            <a href="chats.html">
                 <i class="fas fa-angle-left fa-lg"></i>
             </a>
         </div>
@@ -38,9 +38,42 @@
         </div>
     </header>
 
-    <main class="main-screen">
-
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday, June 30, 2020
+        </div>
+        <div class="message-row">
+            <img src="https://www.16personalities.com/static/images/personality-types/avatars/estj-executive.png" />
+            <div class="message-row__content">
+              <span class="message__author">Executive</span>
+              <div class="message__info">
+                <span class="message__bubble">Hi!</span>
+                <span class="message__time">21:27</span>
+              </div>
+            </div>
+          </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+              <div class="message__info">
+                <span class="message__bubble">Hi nice to meet you!</span>
+                <span class="message__time">21:27</span>
+              </div>
+            </div>
+          </div>
     </main>
+
+    <form class="reply">
+        <div class="reply__column">
+          <i class="far fa-plus-square fa-lg color__chat"></i>
+        </div>
+        <div class="reply__column">
+          <input type="text" placeholder="Write a message..." />
+          <i class="far fa-smile-wink fa-lg"></i>
+          <button>
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+      </form>
 
     <script src="https://kit.fontawesome.com/ec1ae08aec.js" 
     crossorigin="anonymous">
