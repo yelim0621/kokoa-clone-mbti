@@ -16,9 +16,10 @@
 .user-component__avatar{
   width: 70px;
   height: 70px;
-  border-radius: 30px;
+  border-radius: 25px;
   margin-right: 20px;
   box-shadow: 1px 1px 1px rgb(0, 0, 0, 0.1);
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
 }
 .user-component__title{
   font-weight: 600;
@@ -36,6 +37,7 @@
 .user-component__avatar--sm{
     width: 60px;
     height: 60px;
+    border-radius: 20px;
 }
 .user-component__title--not-bold{
     font-weight: 400;

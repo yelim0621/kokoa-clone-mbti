@@ -8,41 +8,43 @@
     <title>Settings - MBTI Talk</title>
 </head>
 <body>
-    <div class="status-bar">
-        <div class="status-bar__column">
-          <span>No Service</span>
-          <i class="fas fa-wifi"></i>
-        </div>
-        <div class="status-bar__column">
-          <span>12:00</span>
-        </div>
-        <div class="status-bar__column">
-          <span>50%</span>
-          <i class="fa-solid fa-battery-half fa-lg"></i>
-          <i class="fas fa-bolt"></i>
-        </div>
+<div class="status-bar">
+    <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
     </div>
+    <div class="status-bar__column">
+        <span>12:00</span>
+    </div>
+    <div class="status-bar__column">
+        <span>50%</span>
+        <i class="fa-solid fa-battery-half fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+    </div>
+</div>
 
-    <header class="alt-header color__settings">
-        <div class="alt-header__column">
-            <a href="more.html">
-                <i class="fas fa-angle-left fa-lg"></i>
-            </a>
-        </div>
-        <div class="alt-header__column">
-          <h1 class="alt-header__title">Settings</h1>
-        </div>
-        <div class="alt-header__column">
-          <span><i class="fas fa-search fa-lg"></i></span>
-        </div>
-    </header>
+<header class="alt-header color__settings">
+    <div class="alt-header__column">
+        <a href="more.html">
+            <i class="fas fa-angle-left fa-lg"></i>
+        </a>
+    </div>
+    <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+    </div>
+    <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+    </div>
+</header>
   
-      <main class="main-screen">
-        <ul class="setting-list">
+<main class="main-screen">
+    <ul class="setting-list">
         <li class="settings__setting">
             <div class="settings__setting-column">
                 <i class="fas fa-bullhorn"></i>
                 <span>Notices</span>
+                <span class="settings-notification">N</span>
+                
             </div>
         </li>
         <li class="settings__setting">
@@ -58,35 +60,61 @@
             </div>
             <div class="settings__setting-column "> Last Version</div>
         </li>
-      </ul>      
-    </main>
+    </ul>
+    <ul class="setting-list">
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fa-solid fa-lock"></i>
+                <span>Priace/Security</span>
+            </div>
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fa-regular fa-bell"></i>
+                <span>Alarm</span>
+            </div>
+        </li>            
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fa-light fa-user-group"></i>
+                <span>Friends</span>
+            </div>
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fa-regular fa-comment"></i>
+                <span>Chat</span>
+            </div>
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fa-solid fa-brush"></i>
+                <span>Theme</span>
+            </div>
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fa-solid fa-ellipsis"></i>
+                <span>Etc</span>
+            </div>
+        </li>
+    </ul>
+    <ul class="setting-list">
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fa-regular fa-hand"></i>
+                <span>Hello Guide(for Users)</span>
+            </div>
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fa-solid fa-circle-question"></i>
+                <span>CScenter/Help</span>
+            </div>
+        </li>            
+    </ul>      
+</main>
 
-    <nav class="nav color__setting-nav">
-        <ul class="nav__list">
-            <li class="nav__btn">
-                <a class="nav__link" href="friends.html">
-                    <i class="fa-solid fa-user fa-2x"></i>
-                </a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="chats.html">
-                    <span class="nav__notification1 badge">2</span>
-                    <i class="fa-solid fa-comment fa-2x"></i>
-                </a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="more.html">
-                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
-                </a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="more.html">
-                    <span class="nav__notification2"></span>
-                    <i class="fa-solid fa-ellipsis fa-2x"></i>
-                </a>
-            </li>
-        </ul>
-    </nav>
 
     <script src="https://kit.fontawesome.com/ec1ae08aec.js" 
     crossorigin="anonymous">
