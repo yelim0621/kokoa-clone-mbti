@@ -41,8 +41,8 @@ to {
 }
 
 .chat__timestamp {
-    color: var(--lightgray);
-    background-color: rgba(66, 151, 180, 0.5);
+    color: gray;
+    background-color: rgba(66, 151, 180, 0.3);
     padding: 15px;
     font-size: 14px;
     border-radius: 25px;
@@ -79,6 +79,7 @@ to {
     border-radius: 15px;
     border-top-left-radius: 0px;
     margin-right: 5px;
+    margin-bottom: 5px;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
     border: 0.2px solid rgba(0, 0, 0, 0.1);
 }
