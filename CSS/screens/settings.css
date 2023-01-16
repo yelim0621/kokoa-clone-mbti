@@ -1,6 +1,6 @@
 
 .settings__setting{
-    padding: 15px 0;
+    padding: 15px 10px;
     font-size: 1px;
     display: flex;
     align-items: center;
@@ -41,6 +41,6 @@
     color: white;
     font-weight: 600;
     position: absolute;
-    left: 140px;
+    left: 150px;
     top: 140px;
 }
