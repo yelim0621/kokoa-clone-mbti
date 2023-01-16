@@ -12,15 +12,3 @@
 .screen-header__icons span{
     margin-left: 25px;
 }
-.color__friends{
-    color: var(--purple);
-}
-.color__chats{
-    color: var(--blue);
-}
-.color__find{
-    color: var(--yellow);
-}
-.color__more{
-    color: var(--green);
-}
